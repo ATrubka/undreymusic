@@ -74,15 +74,7 @@
 			<!-- Tracks -->
 			<article id="tracks">
 				<h2 class="major">Tracks</h2>
-				<span class="image main"><img src="images/tracks/Trace1024.jpg" alt="" /></span>
-				<ul class="icons">
-					<li><a href="https://soundcloud.com/undrey/trace" class="icon brands fa-soundcloud" target="_blank" rel="noopener noreferrer"><span
-								class="label">SoundCloud</span></a></li>
-				</ul>
-				<p>Originally produced in 2006 with roots in Goa trance, "Trace" resurfaces after years
-					underground—refined into a deeper, more cinematic form of melodic techno. It's a track that bridges
-					past and present, carrying the pulse of its origins into a more mature, immersive soundscape.
-				</p>
+				<div id="tracks-list"></div>
 			</article>
 
 			<!-- About -->
@@ -180,6 +172,29 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+	fetch('tracks.json')
+		.then(response => response.json())
+		.then(tracks => {
+			const container = document.getElementById('tracks-list');
+			container.innerHTML = tracks.map((track, i) => {
+				return `
+					${i > 0 ? '<hr>' : ''}
+					<div class="track">
+						<h3>${track.title}</h3>
+						<p>${track.description}</p>
+						<span class="image main"><img src="${track.image}" alt="${track.title}" /></span>
+						<ul class="icons">
+							${track.soundcloud ? `<li><a href="${track.soundcloud}" class="icon brands fa-soundcloud" target="_blank" rel="noopener noreferrer"><span class="label">SoundCloud</span></a></li>` : ''}
+							${track.youtube ? `<li><a href="${track.youtube}" class="icon brands fa-youtube" target="_blank" rel="noopener noreferrer"><span class="label">YouTube</span></a></li>` : ''}
+							${track.facebook ? `<li><a href="${track.facebook}" class="icon brands fa-facebook-f" target="_blank" rel="noopener noreferrer"><span class="label">Facebook</span></a></li>` : ''}
+							${track.instagram ? `<li><a href="${track.instagram}" class="icon brands fa-instagram" target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a></li>` : ''}
+						</ul>
+					</div>
+				`;
+			}).join('');
+		});
+	</script>
 
 </body>
 
