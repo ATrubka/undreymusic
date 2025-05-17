@@ -135,16 +135,16 @@
 					</ul>
 				</form> -->
 				<ul class="icons">
-					<li><a href="https://www.youtube.com/@undreymusic" class="icon brands fa-youtube" target="_blank" rel="noopener noreferrer"><span
-								class="label">YouTube</span></a></li>
-					<li><a href="https://www.facebook.com/undreymusic" class="icon brands fa-facebook-f" target="_blank" rel="noopener noreferrer"><span
-								class="label">Facebook</span></a></li>
-					<li><a href="https://www.instagram.com/undreymusic" class="icon brands fa-instagram" target="_blank" rel="noopener noreferrer"><span
-								class="label">Instagram</span></a></li>
-					<li><a href="https://soundcloud.com/undrey" class="icon brands fa-soundcloud" target="_blank" rel="noopener noreferrer"><span
-								class="label">SoundCloud</span></a></li>
-					<li><a href="mailto:info@undreymusic.com" class="icon solid fa-envelope" target="_blank" rel="noopener noreferrer"><span
-								class="label">Email</span></a></li>
+					<li><a href="https://www.youtube.com/@undreymusic" class="icon brands fa-youtube" target="_blank"
+							rel="noopener noreferrer"><span class="label">YouTube</span></a></li>
+					<li><a href="https://www.facebook.com/undreymusic" class="icon brands fa-facebook-f" target="_blank"
+							rel="noopener noreferrer"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/undreymusic" class="icon brands fa-instagram" target="_blank"
+							rel="noopener noreferrer"><span class="label">Instagram</span></a></li>
+					<li><a href="https://soundcloud.com/undrey" class="icon brands fa-soundcloud" target="_blank"
+							rel="noopener noreferrer"><span class="label">SoundCloud</span></a></li>
+					<li><a href="mailto:info@undreymusic.com" class="icon solid fa-envelope" target="_blank"
+							rel="noopener noreferrer"><span class="label">Email</span></a></li>
 				</ul>
 			</article>
 
@@ -153,16 +153,16 @@
 		<!-- Footer -->
 		<footer id="footer">
 			<ul class="icons">
-				<li><a href="https://www.youtube.com/@undreymusic" class="icon brands fa-youtube" target="_blank" rel="noopener noreferrer"><span
-							class="label">YouTube</span></a></li>
-				<li><a href="https://www.facebook.com/undreymusic" class="icon brands fa-facebook-f" target="_blank" rel="noopener noreferrer"><span
-							class="label">Facebook</span></a></li>
-				<li><a href="https://www.instagram.com/undreymusic" class="icon brands fa-instagram" target="_blank" rel="noopener noreferrer"><span
-							class="label">Instagram</span></a></li>
-				<li><a href="https://soundcloud.com/undrey" class="icon brands fa-soundcloud" target="_blank" rel="noopener noreferrer"><span
-							class="label">SoundCloud</span></a></li>
-				<li><a href="mailto:info@undreymusic.com" class="icon solid fa-envelope" target="_blank" rel="noopener noreferrer"><span
-							class="label">Email</span></a></li>
+				<li><a href="https://www.youtube.com/@undreymusic" class="icon brands fa-youtube" target="_blank"
+						rel="noopener noreferrer"><span class="label">YouTube</span></a></li>
+				<li><a href="https://www.facebook.com/undreymusic" class="icon brands fa-facebook-f" target="_blank"
+						rel="noopener noreferrer"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/undreymusic" class="icon brands fa-instagram" target="_blank"
+						rel="noopener noreferrer"><span class="label">Instagram</span></a></li>
+				<li><a href="https://soundcloud.com/undrey" class="icon brands fa-soundcloud" target="_blank"
+						rel="noopener noreferrer"><span class="label">SoundCloud</span></a></li>
+				<li><a href="mailto:info@undreymusic.com" class="icon solid fa-envelope" target="_blank"
+						rel="noopener noreferrer"><span class="label">Email</span></a></li>
 			</ul>
 
 			<p class="copyright">&copy; Undrey Music</a></p>
@@ -180,27 +180,30 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script>
-	fetch('tracks.json')
-		.then(response => response.json())
-		.then(tracks => {
-			const container = document.getElementById('tracks-list');
-			container.innerHTML = tracks.map((track, i) => {
-				return `
+		fetch('tracks.json')
+			.then(response => response.json())
+			.then(tracks => {
+				const container = document.getElementById('tracks-list');
+				container.innerHTML = tracks.map((track, i) => {
+					return `
 					${i > 0 ? '<hr>' : ''}
 					<div class="track">
 						<h3>${track.title}</h3>
 						<p>${track.description}</p>
 						<span class="image main"><img src="${track.image}" alt="${track.title}" /></span>
+						${track.release_date ? `<p><strong>Released:</strong> ${track.release_date}</p>` : ''}
 						<ul class="icons">
 							${track.soundcloud ? `<li><a href="${track.soundcloud}" class="icon brands fa-soundcloud" target="_blank" rel="noopener noreferrer"><span class="label">SoundCloud</span></a></li>` : ''}
+							${track.spotify ? `<li><a href="${track.spotify}" class="icon brands fa-spotify" target="_blank" rel="noopener noreferrer"><span class="label">Spotify</span></a></li>` : ''}
+							${track.apple_music ? `<li><a href="${track.apple_music}" class="icon brands fa-apple" target="_blank" rel="noopener noreferrer"><span class="label">Apple Music</span></a></li>` : ''}
 							${track.youtube ? `<li><a href="${track.youtube}" class="icon brands fa-youtube" target="_blank" rel="noopener noreferrer"><span class="label">YouTube</span></a></li>` : ''}
 							${track.facebook ? `<li><a href="${track.facebook}" class="icon brands fa-facebook-f" target="_blank" rel="noopener noreferrer"><span class="label">Facebook</span></a></li>` : ''}
 							${track.instagram ? `<li><a href="${track.instagram}" class="icon brands fa-instagram" target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a></li>` : ''}
 						</ul>
 					</div>
 				`;
-			}).join('');
-		});
+				}).join('');
+			});
 	</script>
 
 </body>
