@@ -720,6 +720,11 @@ input, select, textarea {
 
 		}
 
+		.image.no-overlay:before {
+			background: none !important;
+			opacity: 0 !important;
+		}
+
 /* List */
 
 	ol {
