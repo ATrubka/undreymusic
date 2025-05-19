@@ -6,10 +6,25 @@
         "soundcloud": "https://soundcloud.com/undrey/trace",
         "spotify": "https://open.spotify.com/track/4rIyHBOskEN2dUGFSD2eUS",
         "apple_music": "https://music.apple.com/us/album/trace-single/1814895414",
+        "bandcamp": "https://undrey.bandcamp.com/track/trace",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2025-05-16",
         "isrc": "QZPLR2561360"
+    },
+    {
+        "title": "To The Top",
+        "description": "With gentle synth layers, a beautiful melody, and an undercurrent of quiet determination, it captures the feeling of focused ascent, driven not by force, but by inner resolve.",
+        "image": "images/tracks/ToTheTop1024.jpg",
+        "soundcloud": "https://soundcloud.com/undrey/to-the-top",
+        "spotify": "",
+        "apple_music": "",
+        "bandcamp": "https://undrey.bandcamp.com/track/to-the-top",
+        "youtube": "",
+        "facebook": "",
+        "instagram": "",
+        "release_date": "2025-05-19",
+        "isrc": "QZPLS2582183"
     }
 ]
