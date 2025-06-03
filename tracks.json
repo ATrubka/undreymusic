@@ -26,5 +26,20 @@
         "instagram": "",
         "release_date": "2025-05-19",
         "isrc": "QZPLS2582183"
+    },
+    {
+        "title": "Summer Rain",
+        "description": "A gentle blend of ambient textures and slow beats, this track captures the feeling of wandering through an enchanted forest in the rain, where every drop reveals hidden light and color.",
+        "image": "images/tracks/SummerRain1024.jpg",
+        "soundcloud": "https://soundcloud.com/undrey/summer-rain",
+        "spotify": "",
+        "apple_music": "",
+        "bandcamp": "https://undrey.bandcamp.com/track/summer-rain",
+        "youtube": "",
+        "facebook": "",
+        "instagram": "",
+        "release_date": "2025-06-02",
+        "isrc": ""
     }
+
 ]
