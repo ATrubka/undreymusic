@@ -32,13 +32,27 @@
         "description": "A gentle blend of ambient textures and slow beats, this track captures the feeling of wandering through an enchanted forest in the rain, where every drop reveals hidden light and color.",
         "image": "images/tracks/SummerRain1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/summer-rain",
-        "spotify": "",
-        "apple_music": "",
+        "spotify": "https://open.spotify.com/track/4BAeM1kJzD9Lh6GlmGrTYp?si=5b3484d69a1d46c2",
+        "apple_music": "https://music.apple.com/us/album/summer-rain-single/1818433546",
         "bandcamp": "https://undrey.bandcamp.com/track/summer-rain",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2025-06-02",
+        "isrc": "QZTAX2560604"
+    },
+    {
+        "title": "Starlightning",
+        "description": "Starlightning blends soft pulsing synths with warm downtempo rhythms, evoking the quiet charge of a night sky. A melancholic melody arcs like lightning, brief and brilliant, set against a backdrop of cosmic calm and subtle wonder.",
+        "image": "images/tracks/Starlightning1024.jpg",
+        "soundcloud": "https://soundcloud.com/undrey/starlightning",
+        "spotify": "",
+        "apple_music": "",
+        "bandcamp": "https://undrey.bandcamp.com/track/starlightning",
+        "youtube": "",
+        "facebook": "",
+        "instagram": "",
+        "release_date": "2025-06-11",
         "isrc": ""
     }
 
