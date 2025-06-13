@@ -46,13 +46,27 @@
         "description": "Starlightning blends soft pulsing synths with warm downtempo rhythms, evoking the quiet charge of a night sky. A melancholic melody arcs like lightning, brief and brilliant, set against a backdrop of cosmic calm and subtle wonder.",
         "image": "images/tracks/Starlightning1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/starlightning",
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/0vWJ3aj7VT99Rhp3y17H2H",
         "apple_music": "",
         "bandcamp": "https://undrey.bandcamp.com/track/starlightning",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2025-06-11",
+        "isrc": "QZTB32577000"
+    },
+    {
+        "title": "The Only One",
+        "description": "'To Only One' is a sarcastic reflection on love, sacrifice, and identity. It questions whether the problem lies in giving too much or too little, choosing the wrong person or failing to be the right one. With playful irony and a hint of truth, the song captures the emotional tangle of devotion and regret.",
+        "image": "images/tracks/TheOnlyOne1024.jpg",
+        "soundcloud": "https://soundcloud.com/undrey/the-only-one",
+        "spotify": "",
+        "apple_music": "",
+        "bandcamp": "https://undrey.bandcamp.com/track/the-only-one",
+        "youtube": "",
+        "facebook": "",
+        "instagram": "",
+        "release_date": "2025-06-13",
         "isrc": ""
     }
 
