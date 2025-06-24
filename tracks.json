@@ -74,13 +74,27 @@
         "description": "A melancholic downtempo trance journey. It drifts through vast emotional landscapes, blending lush textures, ethereal synths, and reflective stillness. A soundtrack for moments of quiet introspection and distant light.",
         "image": "images/tracks/SoulInSolitude1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/soul-in-solitude",
-        "spotify": "",
-        "apple_music": "",
+        "spotify": "https://open.spotify.com/album/1LFZvh1QR2gEgECt3fD5fy",
+        "apple_music": "https://music.apple.com/us/album/soul-in-solitude-single/1821944892",
         "bandcamp": "https://undrey.bandcamp.com/track/soul-in-solitude",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2025-06-20",
+        "isrc": "QZTB72540409"
+    },
+    {
+        "title": "Pink Rain",
+        "description": "'Pink Rain' blends emotional melodies with deep driving beats. Sparkling synths fall like droplets, creating a dreamlike atmosphere that drifts between sorrow and euphoria.",
+        "image": "images/tracks/PinkRain1024.jpg",
+        "soundcloud": "https://soundcloud.com/undrey/pink-rain",
+        "spotify": "",
+        "apple_music": "",
+        "bandcamp": "https://undrey.bandcamp.com/track/pink-rain",
+        "youtube": "",
+        "facebook": "",
+        "instagram": "",
+        "release_date": "2025-06-24",
         "isrc": ""
     }
 
