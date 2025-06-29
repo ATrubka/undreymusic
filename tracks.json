@@ -88,13 +88,27 @@
         "description": "'Pink Rain' blends emotional melodies with deep driving beats. Sparkling synths fall like droplets, creating a dreamlike atmosphere that drifts between sorrow and euphoria.",
         "image": "images/tracks/PinkRain1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/pink-rain",
-        "spotify": "",
-        "apple_music": "",
+        "spotify": "https://open.spotify.com/album/5hjJ9feSw9CGG1PCkzx5Ls",
+        "apple_music": "https://music.apple.com/us/album/pink-rain-single/1822764664",
         "bandcamp": "https://undrey.bandcamp.com/track/pink-rain",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2025-06-24",
+        "isrc": "QZTB92517911"
+    },
+    {
+        "title": "Before We Go",
+        "description": "A nostalgic trance journey echoing with the fading warmth of youth. Memories of laughter, silent goodbyes, and the final bell merge into waves of emotion, guiding you gently toward the edge of the past.",
+        "image": "images/tracks/BeforeWeGo1024.jpg",
+        "soundcloud": "https://soundcloud.com/undrey/before-we-go",
+        "spotify": "",
+        "apple_music": "",
+        "bandcamp": "https://undrey.bandcamp.com/track/before-we-go",
+        "youtube": "",
+        "facebook": "",
+        "instagram": "",
+        "release_date": "2025-06-29",
         "isrc": ""
     }
 
