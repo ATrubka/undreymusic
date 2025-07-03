@@ -57,7 +57,7 @@
     },
     {
         "title": "The Only One",
-        "description": "'To Only One' is a sarcastic reflection on love, sacrifice, and identity. It questions whether the problem lies in giving too much or too little, choosing the wrong person or failing to be the right one. With playful irony and a hint of truth, the song captures the emotional tangle of devotion and regret.",
+        "description": "'The Only One' is a sarcastic reflection on love, sacrifice, and identity. It questions whether the problem lies in giving too much or too little, choosing the wrong person or failing to be the right one. With playful irony and a hint of truth, the song captures the emotional tangle of devotion and regret.",
         "image": "images/tracks/TheOnlyOne1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/the-only-one",
         "spotify": "https://open.spotify.com/album/2tkeFSL16ndztyaag2kwcA",
@@ -102,13 +102,27 @@
         "description": "A nostalgic trance journey echoing with the fading warmth of youth. Memories of laughter, silent goodbyes, and the final bell merge into waves of emotion, guiding you gently toward the edge of the past.",
         "image": "images/tracks/BeforeWeGo1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/before-we-go",
-        "spotify": "",
-        "apple_music": "",
+        "spotify": "https://open.spotify.com/album/7d2ClpQ82exvwDeDVcZjot",
+        "apple_music": "https://music.apple.com/us/album/before-we-go-single/1823724505",
         "bandcamp": "https://undrey.bandcamp.com/track/before-we-go",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2025-06-29",
+        "isrc": "QZTBB2540457"
+    },
+    {
+        "title": "Crazy Flute",
+        "description": "A playful blend of airy flute melodies and gritty dubstep rhythms. Light and melodic with bursts of energy and a hint of chaos. Natural tones meet electronic drive in a hypnotic flow.",
+        "image": "images/tracks/CrazyFlute1024.jpg",
+        "soundcloud": "https://soundcloud.com/undrey/crazy-flute",
+        "spotify": "",
+        "apple_music": "",
+        "bandcamp": "https://undrey.bandcamp.com/track/crazy-flute",
+        "youtube": "",
+        "facebook": "",
+        "instagram": "",
+        "release_date": "2025-07-02",
         "isrc": ""
     }
 
