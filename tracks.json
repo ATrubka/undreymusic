@@ -116,13 +116,27 @@
         "description": "A playful blend of airy flute melodies and gritty dubstep rhythms. Light and melodic with bursts of energy and a hint of chaos. Natural tones meet electronic drive in a hypnotic flow.",
         "image": "images/tracks/CrazyFlute1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/crazy-flute",
-        "spotify": "",
-        "apple_music": "",
+        "spotify": "https://open.spotify.com/album/0cheOdOBg1vWqD8THbRlhS",
+        "apple_music": "https://music.apple.com/us/album/crazy-flute-single/1824740791",
         "bandcamp": "https://undrey.bandcamp.com/track/crazy-flute",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2025-07-02",
+        "isrc": "QZTBD2515966"
+    },
+    {
+        "title": "Quiet Steps",
+        "description": "A soft, drifting piece that moves at the pace of a quiet walk, reminding you to slow down and simply be.",
+        "image": "images/tracks/QuietSteps1024.jpg",
+        "soundcloud": "https://soundcloud.com/undrey/quiet-steps",
+        "spotify": "",
+        "apple_music": "",
+        "bandcamp": "https://undrey.bandcamp.com/track/quiet-steps",
+        "youtube": "",
+        "facebook": "",
+        "instagram": "",
+        "release_date": "2025-07-05",
         "isrc": ""
     }
 
