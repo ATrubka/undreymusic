@@ -158,14 +158,28 @@
         "description": "A journey that begins with tranquil morning and gradually builds into a lively, unforgettable evening.",
         "image": "images/tracks/PerfectDay1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/perfect-day",
-        "spotify": "",
-        "apple_music": "",
+        "spotify": "https://open.spotify.com/track/2yb68qjruWKeGY35w4Mu7l",
+        "apple_music": "https://music.apple.com/us/song/perfect-day/1830124653",
         "bandcamp": "https://undrey.bandcamp.com/track/perfect-day",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2025-07-29",
         "isrc": "QZWFP2569843"
+    },
+    {
+        "title": "One More Dance",
+        "description": "A slow, emotional melodic dubstep track with ethereal vocals, deep bass, and shimmering synths. It captures the pull between love and loss, rising from intimacy to a euphoric, heartfelt release.",
+        "image": "images/tracks/OneMoreDance1024.jpg",
+        "soundcloud": "https://soundcloud.com/undrey/one-more-dance",
+        "spotify": "",
+        "apple_music": "",
+        "bandcamp": "https://undrey.bandcamp.com/track/one-more-dance",
+        "youtube": "",
+        "facebook": "",
+        "instagram": "",
+        "release_date": "2025-10-23",
+        "isrc": ""
     }
 
 
