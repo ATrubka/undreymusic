@@ -194,7 +194,20 @@
         "instagram": "",
         "release_date": "2025-10-23",
         "isrc": "QT6E62519473"
+    },
+    {
+        "title": "Turkish Delight",
+        "description": "A downtempo electronic track infused with shimmering Turkish melodies, warm synth textures, and hypnotic percussion. Smooth, exotic, and late night atmospheric, it blends modern electronica with a subtle Middle Eastern flavor.",
+        "image": "images/tracks/TurkishDelight1024.jpg",
+        "soundcloud": "https://soundcloud.com/undrey/turkish-delight",
+        "spotify": "",
+        "apple_music": "",
+        "bandcamp": "https://undrey.bandcamp.com/track/turkish-delight",
+        "youtube": "",
+        "facebook": "",
+        "instagram": "",
+        "release_date": "2026-03-02",
+        "isrc": ""
     }
-
 
 ]
