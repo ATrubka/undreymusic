@@ -200,56 +200,56 @@
         "description": "A downtempo electronic track infused with shimmering Turkish melodies, warm synth textures, and hypnotic percussion. Smooth, exotic, and late night atmospheric, it blends modern electronica with a subtle Middle Eastern flavor.",
         "image": "images/tracks/TurkishDelight1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/turkish-delight",
-        "spotify": "",
-        "apple_music": "",
+        "spotify": "https://open.spotify.com/track/3KG5YrqbvKXapHCnx1HIyv",
+        "apple_music": "https://music.apple.com/us/song/turkish-delight/1881638298",
         "bandcamp": "https://undrey.bandcamp.com/track/turkish-delight",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2026-03-02",
-        "isrc": ""
+        "isrc": "QZNWT2602786"
     },
     {
         "title": "Through The Years",
         "description": "A mellow downtempo chill-out track that brings together two melodies written nearly twenty years apart into one timeless piece.",
         "image": "images/tracks/ThroughTheYears1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/through-the-years",
-        "spotify": "",
-        "apple_music": "",
+        "spotify": "https://open.spotify.com/track/4teKi1QQBIBO4zEXSRY2l9",
+        "apple_music": "https://music.apple.com/us/song/through-the-years/1884639637",
         "bandcamp": "https://undrey.bandcamp.com/track/through-the-years",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2026-03-12",
-        "isrc": ""
+        "isrc": "QZPLR2664951"
     },
     {
         "title": "Check Your Vitals",
         "description": "A high-energy progressive house track designed to spark movement, blending driving rhythms with a minimal vocal hook.",
         "image": "images/tracks/CheckYourVitals1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/check-your-vitals",
-        "spotify": "",
-        "apple_music": "",
+        "spotify": "https://open.spotify.com/track/3yrDpP0sffAp11tDzqT7X5",
+        "apple_music": "https://music.apple.com/us/song/check-your-vitals/1886352840",
         "bandcamp": "https://undrey.bandcamp.com/track/check-your-vitals",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2026-03-18",
-        "isrc": ""
+        "isrc": "QZTAT2664160"
     },
     {
         "title": "Going Strong",
         "description": "A cinematic electronic journey where orchestral emotion meets modern synth energy, driven by resilience and forward motion.",
         "image": "images/tracks/GoingStrong1024.jpg",
         "soundcloud": "https://soundcloud.com/undrey/going-strong",
-        "spotify": "",
-        "apple_music": "",
+        "spotify": "https://open.spotify.com/track/6jRFkzqPFLKfZgINX1ootJ",
+        "apple_music": "https://music.apple.com/us/song/going-strong/6800307675",
         "bandcamp": "https://undrey.bandcamp.com/track/going-strong",
         "youtube": "",
         "facebook": "",
         "instagram": "",
         "release_date": "2026-08-10",
-        "isrc": ""
+        "isrc": "QT6G82608988"
     }
 
 ]
